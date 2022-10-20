@@ -1,4 +1,4 @@
-.mainHome {
+.mainContact {
 	/* height: calc(100vh - 110px); */
 	color: white;
 	width: 100%;
@@ -6,7 +6,7 @@
 	/* transform: translateY(-50%); */
 	display: flex;
 }
-.homeBox {
+.contactBox {
 	position: relative;
 	width: 30%;
 
@@ -24,10 +24,10 @@
 	flex-direction: column;
 	justify-content: center;
 }
-.homeBox > * {
+.contactBox > * {
 	margin: 10px 0;
 }
-.homeBox img {
+.contactBox img {
 	width: 70px;
 	height: 70px;
 	position: absolute;
@@ -35,7 +35,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-.mainHome:after {
+.mainContact:after {
 	content: '';
 	position: absolute;
 	bottom: 10%;
@@ -47,7 +47,7 @@
 	clip-path: circle(50% at 50% 50%);
 	z-index: 0;
 }
-.mainHome a {
+.mainContact a {
 	color: white;
 	margin: 0 10px;
 	padding: 10px 25px;
@@ -58,8 +58,8 @@
 	margin-top: 30px;
 }
 @media screen and (max-width: 600px) {
-	.homeBox {
-		width: 80%;
+	.contactBox {
+		width: 80% !important;
 		margin-top: 120px;
 	}
 }
