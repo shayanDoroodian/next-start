@@ -6,10 +6,10 @@ export default function Home() {
 		<div className={st.mainHome}>
 			<div className={st.homeBox}>
 				<h1>HELLO</h1>
-				<h2>I'm Shayan</h2>
-				<p>I created this sample website using "coinstate" api</p>
+				<h2>Im Shayan</h2>
+				<p>I created this sample website using coinstate api</p>
 				<p>
-					I've tried to use Next.js in this project and making some routes and
+					I have tried to use Next.js in this project and making some routes and
 					SSR.
 				</p>
 				<p>Hope you enjoy it :)</p>

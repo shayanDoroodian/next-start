@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import style from '../../styles/coinList.module.css';
 
-const coinList = ({ data }) => {
+const CoinList = ({ data }) => {
 	const rout = useRouter();
 
 	return (
@@ -40,4 +40,4 @@ export async function getStaticProps() {
 		},
 	};
 }
-export default coinList;
+export default CoinList;

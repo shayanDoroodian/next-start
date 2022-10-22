@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import style from '../../styles/singleCoin.module.css';
 
-const coinList = ({ data }) => {
+const CoinList = ({ data }) => {
 	const route = useRouter();
 	const item = data.coins.find((item) => item.id === route.query.coinId);
 
@@ -33,4 +33,4 @@ export async function getServerSideProps() {
 		},
 	};
 }
-export default coinList;
+export default CoinList;

@@ -12,6 +12,7 @@ const Contact = () => {
 				<a
 					href='https://www.linkedin.com/in/shayan-doroodian/'
 					target='_blank'
+					rel='noreferrer'
 					className={st.btnBox}>
 					LinkedIn
 				</a>
@@ -19,16 +20,22 @@ const Contact = () => {
 				<a
 					href='https://github.com/shayanDoroodian'
 					target='_blank'
+					rel='noreferrer'
 					className={st.btnBox}>
 					GitHub
 				</a>
 
-				<a href='https://t.me/shyn_d' target='_blank' className={st.btnBox}>
+				<a
+					href='https://t.me/shyn_d'
+					target='_blank'
+					rel='noreferrer'
+					className={st.btnBox}>
 					Telegram
 				</a>
 				<a
 					href='../../public/linkedin-resume.pdf'
 					target='_blank'
+					rel='noreferrer'
 					download
 					className={st.btnBox}>
 					Download CV
